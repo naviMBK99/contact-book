@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <button class="contact-btn" id="openModal">Contact Us</button>
+
+    <div class="modal" id="contactModal">
+      <div class="contact-card">
+        <form id="contactForm">
+          <div class="input-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div class="input-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+          <div class="input-group">
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required />
+          </div>
+          <div class="input-group">
+            <label for="photo">Photo URL:</label>
+            <input type="url" id="photo" name="photo" />
+          </div>
+          <button class="submit" type="submit">Submit</button>
+        </form>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <ul class="contact-list"></ul>
+    </div>
+    <div id="contactDetailsModal" class="modal">
+      <div class="modal-content">
+        <span class="closeDetailsModal">&times;</span>
+        <div id="contactDetails"></div>
+      </div>
+    </div>
+    <div id="editModal" class="modal">
+      <label for="inpEdit">First Name:</label>
+      <input type="text" id="inpEdit" name="inpEdit" />
+
+      <label for="inpLastNameEdit">Last Name:</label>
+      <input type="text" id="inpLastNameEdit" name="inpLastNameEdit" />
+
+      <label for="inpPhoneEdit">Phone:</label>
+      <input type="text" id="inpPhoneEdit" name="inpPhoneEdit" />
+
+      <label for="inpPhotoEdit">Photo:</label>
+      <input type="text" id="inpPhotoEdit" name="inpPhotoEdit" />
+
+      <button id="btnEditSave" class="btnSaveEdit">Save Edit</button>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

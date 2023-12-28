@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "firstName": "geuuyrrrrrrrrrrrrrrrrrrrrrrr",
+      "lastName": "kjmnuhb",
+      "phoneNumber": "589528-7",
+      "photo": "https://media.wired.com/photos/593261cab8eb31692072f129/master/pass/85120553.jpg",
+      "id": 6
+    },
+    {
+      "firstName": "Baktygul222222222",
+      "lastName": "Adysheva",
+      "phoneNumber": "3025445534",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animal_diversity_b.png/300px-Animal_diversity_b.png",
+      "id": 7
+    },
+    {
+      "firstName": "Bayan Suluu",
+      "lastName": "Maatkulova",
+      "phoneNumber": "0557070199",
+      "photo": "https://parispeaceforum.org/app/uploads/2023/09/net-zero-space-initiative-1.jpg",
+      "id": 9
+    }
+  ]
+}
